@@ -1,0 +1,14 @@
+_site
+.doctrees
+.sass-cache
+.jekyll-metadata
+vendor/
+.bundle/
+content/
+
+# Ignore IntelliJ files.
+.idea/
+*.iml
+*.ipr
+*.iws
+

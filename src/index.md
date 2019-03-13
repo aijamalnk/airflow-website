@@ -1,6 +1,41 @@
 ---
 layout: default
 body_class: body--index
+
+logos:
+- title: Airbnb
+  image_url: /images/logo_airbnb.png
+  url: "http://github.com/airbnb/"
+- title: Lyft
+  image_url: /images/logo_lyft.png
+  url: "http://github.com/lyft"
+- title: Yahoo
+  image_url: /images/logo_yahoo.png
+  url: http://github.com/yahoo/
+- title: Google Cloud
+  image_url: /images/logo_google_cloud.png
+  url: https://cloud.google.com/
+- title: Stripe
+  image_url: /images/logo_stripe.png
+  url: http://github.com/stripe/
+
+pillars:
+- title: Dynamic
+  body: Airflow pipelines are configuration as code (Python), allowing for dynamic pipeline generation. This allows for writing code that instantiates pipelines dynamically.
+- title: Extensible
+  body: Easily define your own operators, executors and extend the library so that it fits the level of abstraction that suits your environment.
+- title: Elegant
+  body: Airflow pipelines are lean and explicit. Parameterizing your scripts is built into the core of Airflow using the powerful Jinja templating engine.
+- title: Scalable
+  body: Airflow has a modular architecture and uses a message queue to orchestrate an arbitrary number of workers. Airflow is ready to scale to infinity.
+
+cards:
+- quote: "A framework that delivers the flexibility and advanced functionality our customers need."
+  name: –Framework user
+- quote: "Before airflow, I was using interns to schedule all of my workflows."
+  name: –Manager
+- quote: "Airflow has rich functionality that addresses very well the problems of workflow orchestration."
+  name: –Workflow orchestrator
 ---
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -80,7 +115,7 @@ limitations under the License.
 
 <div class="logos section">
   <div class="logos__title">
-    Works with
+    Used by
   </div>
   <div class="logos__logos">
     {% for logo in page.logos %}
@@ -88,6 +123,11 @@ limitations under the License.
       <a href="{{ logo.url | prepend: base.siteUrl }}"><img src="{{logo.image_url|prepend:site.baseurl}}" alt="{{logo.title}}"></a>
     </div>
     {% endfor %}
+  </div>
+  <div class="logos__body">
+    <a href="https://github.com/apache/airflow#who-uses-apache-airflow">
+      ... and MANY others.
+    </a>
   </div>
 </div>
 

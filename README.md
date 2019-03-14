@@ -9,3 +9,4 @@ The website supports easily adding new pages, and editing with Markdown.
 When it comes to the documentation, the proposal is that pydocs will remain
 to be written in Sphinx, and built with ReadTheDocs.
 
+To try, build and test the website locally, try the provided scripts: `build_site.sh`, `serve_site.sh`, and `test_site.sh`.

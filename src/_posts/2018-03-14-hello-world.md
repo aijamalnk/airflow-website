@@ -3,7 +3,7 @@ layout: post
 title:  "Hello World!"
 date:   2019-03-14 10:21:48 -0800
 excerpt_separator: <!--more-->
-categories: airlow posts
+categories: airflow posts
 authors:
 - aizhamal
 ---

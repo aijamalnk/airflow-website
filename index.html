@@ -32,16 +32,16 @@
   <meta name="description" content="Airflow is a platform to programmatically author, schedule and monitor workflows. Use airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed. When workflows are defined as code, they become more maintainable, versionable, testable, and collaborative.
 ">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
-  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="/css/site.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/language-switch.js"></script>
-  <script src="js/fix-menu.js"></script>
-  <script src="js/section-nav.js"></script>
-  <script src="js/page-nav.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/language-switch.js"></script>
+  <script src="/js/fix-menu.js"></script>
+  <script src="/js/section-nav.js"></script>
+  <script src="/js/page-nav.js"></script>
   <link rel="canonical" href="https://airflow.apache.org/" data-proofer-ignore>
   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-  <link rel="alternate" type="application/rss+xml" title="Apache Airflow" href="https://airflow.apache.orgfeed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Apache Airflow" href="https://airflow.apache.org/feed.xml">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -76,7 +76,7 @@
       </button>
 
       <a href="/" class="navbar-brand" >
-        <img alt="Brand" style="height: 25px" src="images/logos/airflow_logo_navbar.png">
+        <img alt="Brand" style="height: 25px" src="/images/logos/airflow_logo_navbar.png">
       </a>
     </div>
 
@@ -89,25 +89,19 @@
           <a href="https://airflow.apache.org/start.html">Get Started</a>
         </li>
         <li>
-          <!--TODO(pabloem): <a href="/community/contact-us/">Community</a>-->
-          <a href="./project/">Project and Roadmap</a>
+          <a href="/project/">Project and Roadmap</a>
         </li>
         <li>
           <!-- TODO(pabloem, aizhamal): Fix this link once site is merged -->
           <a href="https://airflow.apache.org/">Documentation</a>
         </li>
         <li>
-          <!--TODO(pabloem): <a href="/community/contact-us/">Community</a>-->
-          <a href="./contribute/">Contribute</a>
+          <a href="/contribute/">Contribute</a>
         </li>
         <li>
-          <!--TODO(pabloem): <a href="/community/contact-us/">Community</a>-->
-          <a href="./community/contact-us/">Community</a>
+          <a href="/community/contact-us/">Community</a>
         </li>
-        <li>
-          <!--TODO(pabloem): <a href="/community/contact-us/">Community</a>-->
-          <a href="./blog">Blog</a>
-        </li>
+        <li><a href="/blog">Blog</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
@@ -176,6 +170,11 @@ limitations under the License.
           </div>
           <div class="hero__blog__cards">
             
+            <a class="hero__blog__cards__card" href="/airlow/posts/2019/03/14/hello-world.html">
+              <div class="hero__blog__cards__card__title">Hello World!</div>
+              <div class="hero__blog__cards__card__date">Mar 14, 2019</div>
+            </a>
+            
           </div>
         </div>
       </div>
@@ -230,7 +229,7 @@ limitations under the License.
 
 <div class="graphic section">
 <div class="graphic__image">
-<img src="images/airflow_screenshots.gif" alt="Ariflow samples" />
+<img src="/images/airflow_screenshots.gif" alt="Ariflow samples" />
 </div>
 </div>
 
@@ -241,23 +240,23 @@ limitations under the License.
   <div class="logos__logos">
     
     <div class="logos__logos__logo">
-      <a href="http://github.com/airbnb/"><img src="images/logo_airbnb.png" alt="Airbnb" /></a>
+      <a href="http://github.com/airbnb/"><img src="/images/logo_airbnb.png" alt="Airbnb" /></a>
     </div>
     
     <div class="logos__logos__logo">
-      <a href="http://github.com/lyft"><img src="images/logo_lyft.png" alt="Lyft" /></a>
+      <a href="http://github.com/lyft"><img src="/images/logo_lyft.png" alt="Lyft" /></a>
     </div>
     
     <div class="logos__logos__logo">
-      <a href="http://github.com/yahoo/"><img src="images/logo_yahoo.png" alt="Yahoo" /></a>
+      <a href="http://github.com/yahoo/"><img src="/images/logo_yahoo.png" alt="Yahoo" /></a>
     </div>
     
     <div class="logos__logos__logo">
-      <a href="https://cloud.google.com/"><img src="images/logo_google_cloud.png" alt="Google Cloud" /></a>
+      <a href="https://cloud.google.com/"><img src="/images/logo_google_cloud.png" alt="Google Cloud" /></a>
     </div>
     
     <div class="logos__logos__logo">
-      <a href="http://github.com/stripe/"><img src="images/logo_stripe.png" alt="Stripe" /></a>
+      <a href="http://github.com/stripe/"><img src="/images/logo_stripe.png" alt="Stripe" /></a>
     </div>
     
   </div>
@@ -392,7 +391,7 @@ limitations under the License.
     &copy;
     <a href="http://www.apache.org">The Apache Software Foundation</a>
     | <a href="/privacy_policy">Privacy Policy</a>
-    | <a href="feed.xml">RSS Feed</a>
+    | <a href="/feed.xml">RSS Feed</a>
     <br><br>
     Apache Airflow, Apache, Airflow, the Airflow logo, and the Apache feather logo are
     either registered trademarks or trademarks of The Apache Software

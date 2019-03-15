@@ -27,8 +27,7 @@ description: > # this means to ignore newlines until "baseurl:"
 source: src
 
 # the base hostname & protocol for your site
-url: "https://aijamalnk.github.io"
-baseurl: "/airflow-website"
+url: "https://airflow.apache.org"
 
 twitter_username: apacheairflow
 

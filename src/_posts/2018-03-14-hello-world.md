@@ -26,3 +26,7 @@ We are thrilled to announce that our new website and new blog is now online for 
 
 We sincerely hope that you like our new website and the new blog.  We would also love to get your feedback and ideas to help us improve and to serve the community better. 
 
+In the meantime, we will continue to build the documentation and improve the new user and new contributor experience for Apache Airflow.
+
+Thank you!
+

@@ -28,7 +28,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Airflow Blog</title>
+  <title>Contribute</title>
   <meta name="description" content="Airflow is a platform to programmatically author, schedule and monitor workflows. Use airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed. When workflows are defined as code, they become more maintainable, versionable, testable, and collaborative.
 ">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
@@ -39,7 +39,7 @@
   <script src="/airflow-website/js/fix-menu.js"></script>
   <script src="/airflow-website/js/section-nav.js"></script>
   <script src="/airflow-website/js/page-nav.js"></script>
-  <link rel="canonical" href="https://aijamalnk.github.io/airflow-website/blog/" data-proofer-ignore>
+  <link rel="canonical" href="https://aijamalnk.github.io/airflow-website/documentation/" data-proofer-ignore>
   <link rel="shortcut icon" type="image/x-icon" href="/airflow-website/images/favicon.ico">
   <link rel="alternate" type="application/rss+xml" title="Apache Airflow" href="https://aijamalnk.github.io/airflow-website/feed.xml">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -53,7 +53,7 @@
   </script>
 </head>
 
-  <body class="body ">
+  <body class="body" data-spy="scroll" data-target=".page-nav" data-offset="0">
     <!--
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -120,7 +120,7 @@
             GitHub links will not resolve until the markdown source is available on the master branch.
             New pages would fail validation during development / PR test automation.
           -->
-          <a href="https://github.com/apache/airflow/edit/master/website/src/blog/index.md" data-proofer-ignore>
+          <a href="https://github.com/apache/airflow/edit/master/website/src/documentation.md" data-proofer-ignore>
             <i class="far fa-edit fa-lg" alt="Edit on GitHub" title="Edit on GitHub"></i>
           </a>
         </li>
@@ -128,8 +128,64 @@
     </div>
 </nav>
 
-    <div class="body__contained">
-      <!--
+    <div class="clearfix container-main-content">
+      <div class="section-nav closed" data-offset-top="90" data-offset-bottom="500">
+        <span class="section-nav-back glyphicon glyphicon-menu-left"></span>
+        <nav>
+          <ul class="section-nav-list" data-section-nav>
+            <!--
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License. See accompanying LICENSE file.
+-->
+
+<li><span class="section-nav-list-main-title">Documentation</span></li>
+<li>
+  <a href="https://airflow.apache.org/" target="_blank">
+    User Documentation (ReadTheDocs)
+    <img src="/airflow-website/images/external-link-icon.png"
+     width="14" height="14" alt="External link to Airflow docs">
+  </a>
+</li>
+<li>
+  <a href="https://cwiki.apache.org/confluence/display/AIRFLOW/Airflow+Home" target="_blank">
+    Contributor Documentation (wiki)
+    <img src="/airflow-website/images/external-link-icon.png"
+     width="14" height="14" alt="External link to Airflow wiki">
+  </a>
+</li>
+
+          </ul>
+        </nav>
+      </div>
+
+      <nav class="page-nav clearfix" data-offset-top="90" data-offset-bottom="500">
+        <!--
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License. See accompanying LICENSE file.
+-->
+
+
+
+
+
+      </nav>
+
+      <div class="body__contained body__section-nav">
+        <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -143,40 +199,14 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-<h1 id="apache-airflow-blog">Apache Airflow Blog</h1>
+<h1 id="documentation">Documentation</h1>
 
-<p>This is the blog for the Apache Airflow project. This blog contains news and updates
-for the project.</p>
+<p>The Apache Airflow documentation is separated by use case. Some of the documentation 
+is available in this site (e.g. tutorials, quickstart, etc). For more specific technical
+documentation (e.g. Pydocs), you can check our <a href="https://airflow.apache.org">ReadTheDocs page</a>,
+and our <a href="https://cwiki.apache.org/confluence/display/AIRFLOW/Airflow+Home">Wiki in confluence</a>.</p>
 
-<h3 id="hello-world"><a class="post-link" href="/airflow-website/airflow/posts/2019/03/14/hello-world.html">Hello World!</a></h3>
-<p><i>Mar 14, 2019 •
- Aizhamal Nurmamat kyzy [<a href="https://twitter.com/iamaijamal">@iamaijamal</a>]
-</i></p>
-
-<!--
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
--->
-<p>Hello World and Apache Airflow community!</p>
-
-<p>We are thrilled to announce that our new website and new blog is now online for the whole Airflow community to use and share!</p>
-
-<p>We sincerely hope that you like our new website and the new blog.  We would also love to get your feedback and ideas to help us improve and to serve the community better.</p>
-
-<!-- Render a "read more" button if the post is longer than the excerpt -->
-
-<hr />
-
-
+      </div>
     </div>
     <!--
  Licensed under the Apache License, Version 2.0 (the "License");

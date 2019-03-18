@@ -62,11 +62,11 @@ limitations under the License.
             Author, schedule, and monitor complex workflows on an array of workers easily.
           </div>
           <div class="hero__ctas hero__ctas--first">
-            <a class="button button--primary" href="{{'/get-started/airflow-overview/'|prepend:site.baseurl}}">Learn more</a>
-            <a class="button button--primary" href="{{'/get-started/downloads/'|prepend:site.baseurl}}">Getting Airflow {{ site.release_latest }}</a>
+            <a class="button button--primary" href="{{'/project/'|prepend:site.baseurl}}">Learn more</a>
+            <a class="button button--primary" href="https://airflow.apache.org/installation.html">Getting Airflow {{ site.release_latest }}</a>
           </div>
           <div class="hero__ctas">
-	    <a class="button" href="{{'/get-started/quickstart/'|prepend:site.baseurl}}">Quickstart</a>
+	    <a class="button" href="{{'/get-started/'|prepend:site.baseurl}}">Quickstart</a>
           </div>
         </div>
       </div>

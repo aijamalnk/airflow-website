@@ -43,11 +43,13 @@ include: ['_static', '_modules', '_sources', '.htaccess']
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
 # Don't use the page title in the table of contents
+highlighter: rouge
+
 kramdown:
   toc_levels:     2..6
 
-# The most recent release of Beam.
-release_latest: TODO
+# The most recent release of Airflow.
+release_latest: 1.10.2
 
 # Plugins are configured in the Gemfile.
 
